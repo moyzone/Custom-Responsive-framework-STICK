@@ -1,0 +1,162 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#76b852), to(#8dc26f));
+  background: linear-gradient(to right, #76b852, #8dc26f);
+  font-family: sans-serif;
+}
+
+.container {
+  width: calc(100% - 10em);
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+div[class^="stick-"] {
+  background: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.stick-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 8.33333%;
+          flex: 0 0 8.33333%;
+}
+
+.stick-offset-1 {
+  margin-left: 8.33333%;
+}
+
+.stick-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 16.66667%;
+          flex: 0 0 16.66667%;
+}
+
+.stick-offset-2 {
+  margin-left: 16.66667%;
+}
+
+.stick-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+.stick-offset-3 {
+  margin-left: 25%;
+}
+
+.stick-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33333%;
+          flex: 0 0 33.33333%;
+}
+
+.stick-offset-4 {
+  margin-left: 33.33333%;
+}
+
+.stick-5 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.66667%;
+          flex: 0 0 41.66667%;
+}
+
+.stick-offset-5 {
+  margin-left: 41.66667%;
+}
+
+.stick-6 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.stick-offset-6 {
+  margin-left: 50%;
+}
+
+.stick-7 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.33333%;
+          flex: 0 0 58.33333%;
+}
+
+.stick-offset-7 {
+  margin-left: 58.33333%;
+}
+
+.stick-8 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.66667%;
+          flex: 0 0 66.66667%;
+}
+
+.stick-offset-8 {
+  margin-left: 66.66667%;
+}
+
+.stick-9 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+}
+
+.stick-offset-9 {
+  margin-left: 75%;
+}
+
+.stick-10 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 83.33333%;
+          flex: 0 0 83.33333%;
+}
+
+.stick-offset-10 {
+  margin-left: 83.33333%;
+}
+
+.stick-11 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 91.66667%;
+          flex: 0 0 91.66667%;
+}
+
+.stick-offset-11 {
+  margin-left: 91.66667%;
+}
+
+.stick-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.stick-offset-12 {
+  margin-left: 100%;
+}
+
+@media(max-width:700px){
+  .row{
+    background:red;
+  }
+  div[class^="stick-"] {
+    flex: 0 0 100%;
+  }
+  
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+*
+  box-sizing: border-box
+
+body
+  background: linear-gradient(to right, #76b852, #8dc26f)
+  font-family: sans-serif
+ 
+.container
+  width: calc(100% - 10em)
+  max-width: 60em
+  margin: 0 auto
+  
+div[class^="stick-"]
+  background: white
+  padding: 1rem 0
+  text-align: center
+
+.row
+  display: flex
+  flex-wrap: wrap
+
+$columns: 12
+
+@for $i from 1 through $columns
+  .stick-#{$i}
+    flex: 0 0 100% / $columns * $i
+  .stick-offset-#{$i}
+    margin-left: 100% / $columns * $i
